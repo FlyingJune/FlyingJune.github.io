@@ -3,8 +3,8 @@ layout: default
 title: just fun
 ---
 
-# 🎡 Just Fun 轻松一刻
-欢迎来到 Just Fun 分类~~ 在这里，追求 开心 舒服 自在
+# 🪂 Just Fun 轻松一刻
+欢迎来到 Just Fun 分类~ 在这里，**追求 开心 舒服 自在~**
 
 {% for post in site.posts %}
   {% if post.categories contains "just_fun" %}
