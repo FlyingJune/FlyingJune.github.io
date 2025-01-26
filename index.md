@@ -12,9 +12,9 @@ title: 哈哈，我有了个人主页
 ### 🏷️ Blog Categories 博客分类
 
 ---
-### 🤖 Tech 工作中的林林总总
+### 🤖 Tech Share [工作技术分享]({{ site.url }}/categories/tech_share/)
 
-### 🎨 Life Canvas 生活画布
+### 🎨 Life Canvas [生活画布]({{ site.url }}/categories/life_canvas/)
 
 ### 🪂 Just Fun [轻松一刻]({{ site.url }}/categories/just_fun/)
 
