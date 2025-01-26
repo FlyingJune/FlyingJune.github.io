@@ -2,5 +2,5 @@ title: 终于有了个人主页
 description: 放轻松，这里面还啥都木有
 theme: jekyll-theme-cayman
 permalink: /:categories/:title/
-baseurl: ""
-url: "https://xiaoJune.github.io"
+baseurl: "/xiaoJune.github.io"
+url: "https://flyingjune.github.io"
