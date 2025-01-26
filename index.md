@@ -3,8 +3,7 @@ layout: default
 title: 哈哈，我有了个人主页
 ---
 
-# Welcome 🎉 来者都是客，瓜子![当当当无敌瓜子攻击](https://github.com/user-attachments/assets/a88bb74d-b188-46aa-8b83-07d5e5747e57)
-水果🍉伺候着 🎉
+# Welcome 🎉 来者都是客，瓜子![Suggestion](https://github.com/user-attachments/assets/b761db81-8713-4582-9614-25ddd5af65d5)伺候着 🎉
 
 你好！我是 [xiaoJune]，这是一段关于我的介绍：
 
