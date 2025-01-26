@@ -8,7 +8,7 @@ title: just fun
 
 {% for post in site.posts %}
   {% if post.categories contains "just_fun" %}
-  - [{{ post.title }}]({{ site.baseurl }}{{ post.url }}) - {{ post.date | date: "%Y-%m-%d" }}
+  - [{{ post.title }}]({{ site.url }}{{ post.url }}) - {{ post.date | date: "%Y-%m-%d" }}
   {% endif %}
 {% endfor %}
 
