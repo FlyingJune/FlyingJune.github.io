@@ -1,3 +1,44 @@
-title: 我的个人主页
-description: 欢迎访问我的个人主页！
-theme: jekyll-theme-cayman
+title: June的个人主页
+description: 欢迎来到我的主页，这是我的一个小小的尝试。
+author: FlyingJune
+url: https://github.com/FlyingJune/xiaoJune.github.io/
+theme: jekyll-theme-cayman 
+markdown: kramdown
+highlighter: rouge
+lang: zh-CN
+timezone: Asia/Shanghai
+# 导航栏链接
+# 如果主题支持自定义导航栏，你可以在这里设置链接
+# 例如，用于添加“关于我”和“联系我”的页面链接
+nav_links:
+  - title: 关于我
+    url: /about/
+  - title: 项目
+    url: /projects/
+  - title: 联系我
+    url: /contact/
+# 自定义样式表 (可选)
+# 如果需要自定义 CSS，请在 assets 目录中创建 styles.css 并取消注释以下行
+# custom_css: assets/styles.css
+# 插件配置 (可选)
+plugins:
+  - jekyll-feed   # RSS 订阅功能
+  - jekyll-seo-tag # SEO 优化
+  - jekyll-sitemap # 生成站点地图
+  - jekyll-paginate # 支持分页
+# 博客分页设置
+paginate: 5
+paginate_path: "/page:num/"
+# 输出文件排除
+# 以下文件和文件夹将不会被发布到 GitHub Pages
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+# 可选：Social Links 配置 (视主题支持情况)
+# 如果你的主题支持社交链接图标，可以添加以下配置
+social_links:
+  github: https://github.com/flyingjune
+  linkedin: https://linkedin.com/in/your-profile
+  twitter: https://twitter.com/your-username
+  wechat: your_wechat_id
