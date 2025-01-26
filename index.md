@@ -7,8 +7,6 @@ title: 哈哈，我有了个人主页
 
 在这里，我会记录自己工作上的总结，生活中的一点发现。激励自己多多思考，坚持产出~
 
-[GitHub 仓库](https://github.com/FlyingJune)
-
 ---
 
 ### 🏷️ Blog Categories 博客分类
