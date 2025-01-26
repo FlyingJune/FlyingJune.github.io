@@ -16,7 +16,7 @@ title: 哈哈，我有了个人主页
 
 ### 🎨 Life Canvas 生活画布
 
-### 🪂 Just Fun 轻松一刻 [点击访问]({{ site.url }}/categories/just_fun/)
+### 🪂 Just Fun [轻松一刻]({{ site.url }}/categories/just_fun/)
 
 
 ## 最近更新 📰
