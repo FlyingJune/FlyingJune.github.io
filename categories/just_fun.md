@@ -10,3 +10,4 @@ title: just fun
   - [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%Y-%m-%d" }}
   {% endif %}
 {% endfor %}
+![Hello June (1)](https://github.com/user-attachments/assets/e1e0b833-d2cc-4f21-9182-1671ddbe70e0)
