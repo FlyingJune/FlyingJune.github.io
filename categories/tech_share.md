@@ -13,4 +13,4 @@ permalink: /categories/tech_share/
   {% endif %}
 {% endfor %}
 
-![HelloJune](../assets/images/HelloJune.png)
+![HelloJune](../assets/images/HelloJune5.png)
