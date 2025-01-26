@@ -14,11 +14,11 @@ title: 哈哈，我有了个人主页
 ### 🏷️ Blog Categories 博客分类
 
 ---
-### Tech 工作中的林林总总
+### 🤖 Tech 工作中的林林总总
 
 ### 🎨 Life Canvas 生活画布
 
-### Just Fun 轻松一刻
+### 👣🎡🍬🍭🪂Just Fun 轻松一刻
 
 
 
