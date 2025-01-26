@@ -1,3 +1,4 @@
 title: 终于有了个人主页
 description: 放轻松，这里面还啥都木有
 theme: jekyll-theme-cayman
+permalink: /:categories/:title/
