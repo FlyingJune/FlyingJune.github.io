@@ -1,6 +1,7 @@
 ---
+title: Just Fun
 layout: default
-title: just fun
+permalink: /categories/just_fun/
 ---
 
 # 🪂 Just Fun 轻松一刻
