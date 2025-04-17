@@ -1,71 +1,80 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>{{ page.title }} | {{ site.title }}</title>
-  <!-- 引入手写风格字体 -->
-  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kalam&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    /* 整体背景与字体设定 */
     body {
-      background: #f9f9f9;
-      font-family: 'Kalam', cursive;
-      margin: 0;
-      padding: 20px;
+      font-family: 'Patrick Hand', cursive;
+      background: #fefcf7 url('/assets/images/bg-texture.png') repeat;
       color: #333;
-      line-height: 1.6;
+      margin: 0;
+      padding: 0;
     }
-    /* 页面主体容器，添加手绘感的虚线边框 */
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      background: #fff;
-      padding: 30px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      border: 2px dashed #e4e4e4;
+
+    .post-container {
+      max-width: 750px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background: #ffffffdd;
+      border: 2px dashed #d0d0d0;
+      border-radius: 16px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.06);
     }
-    /* 标题部分：采用更具手绘感的字体 */
-    header h1 {
-      font-family: 'Indie Flower', cursive;
-      font-size: 2.5em;
-      color: #444;
-      margin-bottom: 10px;
+
+    h1.post-title {
+      font-family: 'Amatic SC', cursive;
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      color: #4b4b4b;
     }
-    /* 文章主要内容 */
-    main {
-      margin-top: 20px;
+
+    .post-date {
+      font-size: 0.95rem;
+      color: #888;
+      margin-bottom: 2rem;
     }
-    /* 链接样式 */
+
+    .post-content {
+      line-height: 1.8;
+      font-size: 1.05rem;
+    }
+
     a {
-      color: #1e90ff;
+      color: #61988e;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
-    /* 页脚样式 */
+
     footer {
       text-align: center;
-      margin-top: 20px;
-      font-size: 0.9em;
-      color: #777;
+      margin-top: 4rem;
+      font-size: 0.85rem;
+      color: #aaa;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>{{ site.title }}</h1>
-      <p>{{ site.description }}</p>
-    </header>
-    <main>
+
+  <div class="post-container">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="post-date">{{ page.date | date: "%B %d, %Y" }}</div>
+
+    <div class="post-content">
       {{ content }}
-    </main>
-    <footer>
-      <p>© {{ site.time | date: '%Y' }} {{ site.author }}</p>
-    </footer>
+    </div>
   </div>
+
+  <footer>
+    <p>Back to <a href="{{ site.baseurl }}/">home</a> | Written with 🌸 by {{ site.author }}</p>
+  </footer>
+
 </body>
 </html>
-
