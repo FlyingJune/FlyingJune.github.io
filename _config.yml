@@ -1,6 +1,8 @@
 title: 终于有了个人主页
-description: 放轻松，这里面还啥都木有
+description: 思考~记录~分享~
 theme: jekyll-theme-cayman
 permalink: /:categories/:title/
 baseurl: ""
 url: "https://flyingjune.github.io"
+include:
+  - assets
