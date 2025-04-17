@@ -1,5 +1,5 @@
 title: 终于有了个人主页
-description: 思考~记录~分享~
+description: 思考~记录~分享
 theme: jekyll-theme-cayman
 permalink: /:categories/:title/
 baseurl: ""
