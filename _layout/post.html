@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <!-- 引入手写风格字体 -->
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kalam&display=swap" rel="stylesheet">
+  <style>
+    /* 整体背景与字体设定 */
+    body {
+      background: #f9f9f9;
+      font-family: 'Kalam', cursive;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+      line-height: 1.6;
+    }
+    /* 页面主体容器，添加手绘感的虚线边框 */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border: 2px dashed #e4e4e4;
+    }
+    /* 标题部分：采用更具手绘感的字体 */
+    header h1 {
+      font-family: 'Indie Flower', cursive;
+      font-size: 2.5em;
+      color: #444;
+      margin-bottom: 10px;
+    }
+    /* 文章主要内容 */
+    main {
+      margin-top: 20px;
+    }
+    /* 链接样式 */
+    a {
+      color: #1e90ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    /* 页脚样式 */
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>{{ site.title }}</h1>
+      <p>{{ site.description }}</p>
+    </header>
+    <main>
+      {{ content }}
+    </main>
+    <footer>
+      <p>© {{ site.time | date: '%Y' }} {{ site.author }}</p>
+    </footer>
+  </div>
+</body>
+</html>
 
