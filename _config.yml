@@ -4,5 +4,6 @@ theme: jekyll-theme-cayman
 permalink: /:categories/:title/
 baseurl: ""
 url: "https://flyingjune.github.io"
+
 include:
   - assets
