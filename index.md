@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 哈哈，我有了个人主页
+title: June的个人主页
 ---
 
 # Welcome 🎉 来者都是客，您慢慢逛逛 🎶![Suggestion](https://github.com/user-attachments/assets/b761db81-8713-4582-9614-25ddd5af65d5)
